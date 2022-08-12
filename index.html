@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lowcarb</title>
+  <link rel="stylesheet" href="resourses/css/style.css">
+</head>
+
+<body>
+
+  <!-- Showcase -->
+  <section class="showcase">
+
+<!-- Header -->
+    <header>
+      <h2 class="logo">Lowcarb</h2>
+      <div class="toggle"></div>
+    </header>
+
+<!-- Video -->
+    <video src="resourses/images/video-chef.mp4" muted loop autoplay></video>
+
+<!-- Overlay -->
+    <div class="overlay"></div>
+
+<!-- Text -->
+    <div class="text">
+      <h2>Get started today </h2> 
+      <h3>with Lowcarb</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat.</p>
+      <a href="#">Explore</a>
+    </div>
+
+<!-- Social -->
+    <!-- <ul class="social">
+      <li><a href="#"><img src="resourses/images/facebook-free-icon-font.svg"></a></li>
+      <li><a href="#"><img src="resourses/images/instagram-free-icon-font.svg"></a></li>
+      <li><a href="#"><img src="resourses/images/snapchat-free-icon-font.svg"></a></li>
+    </ul> -->
+
+  </section>
+
+  <!-- Menu -->
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Recipies</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Menu-JavaScript -->
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+     menuToggle.classList.toggle('active');
+     showcase.classList.toggle('active');
+    })
+  </script>
+
+</body>
+</html>
